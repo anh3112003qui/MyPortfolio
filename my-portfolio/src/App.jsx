@@ -5,6 +5,7 @@ import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Project from "./components/Project"
+import ScrollToTop from "react-scroll-to-top"
 
 const App = () =>{
   return (
@@ -16,6 +17,7 @@ const App = () =>{
     <Project/>
     <Contact/>
     <Footer/>
+    <ScrollToTop smooth/>
     </>
   )
 }
